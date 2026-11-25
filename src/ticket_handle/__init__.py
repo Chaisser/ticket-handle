@@ -1,2 +1,2 @@
 def main() -> None:
-    print("Hello from ticket-handle!")
+    print("Ticket classification and routing.")

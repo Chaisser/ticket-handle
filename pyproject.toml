@@ -1,7 +1,7 @@
 [project]
 name = "ticket-handle"
 version = "0.1.0"
-description = "Add your description here"
+description = "Ticket classification and routing."
 readme = "README.md"
 authors = [
     { name = "Doruk Karaboncuk", email = "doruk.karaboncuk@gmail.com" }
@@ -15,9 +15,6 @@ dependencies = [
     "pydantic>=2.14.4",
     "uvicorn>=0.54.0",
 ]
-
-[project.scripts]
-ticket-handle = "ticket_handle:main"
 
 [build-system]
 requires = ["uv_build>=0.13.6,<0.14.0"]
